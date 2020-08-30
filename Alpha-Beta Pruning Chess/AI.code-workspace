@@ -1,0 +1,12 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		}
+	],
+	"settings": {
+		"python.linting.pylintArgs": [
+			"--extension-pkg-whitelist=lxml"  // The extension is "lxml" not "1xml"
+		]
+	}
+}
